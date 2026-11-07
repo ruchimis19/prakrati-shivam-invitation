@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,6 +29,7 @@
     align-items:center;
     justify-content:center;
     min-height:100vh;
+    min-height:100dvh;
     overflow:hidden;
   }
 
@@ -35,6 +37,7 @@
     position:relative;
     width:min(420px,100vw);
     height:min(880px,100vh);
+    height:min(880px,100dvh);
     background:var(--cream);
     overflow:hidden;
     box-shadow:0 30px 80px rgba(0,0,0,0.6);
@@ -176,7 +179,7 @@
     display:flex; flex-direction:column;
     align-items:center;
     justify-content:center;
-    padding:64px 26px 70px;
+    padding:64px 26px 90px;
     text-align:center;
     background-color:var(--cream);
     scroll-snap-align:start;
@@ -201,7 +204,7 @@
     content:'';
     position:absolute; inset:0;
     z-index:0;
-    background:linear-gradient(180deg, rgba(190,145,145,0.5), rgba(221,228,232,0.45));
+    background:linear-gradient(180deg, rgba(190,145,145,0.5), rgba(221,228,232,0.25));
   }
 
   .bg-slide-groom::before{
@@ -544,18 +547,19 @@
       <div class="scroll-hint"><span>Scroll</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 4v16M6 14l6 6 6-6"/></svg></div>
     </div>
 
-    <!-- Slide 2: bride -->
-     <div class="slide bg-slide-bride">
+
+     <!-- Slide 2: Bride -->
+    <div class="slide bg-slide-bride">
       <div class="eyebrow">The Bride</div>
       <div class="photo-frame">
-        <img src="_ROO3682.jpg" alt="Bride">
+        <img src="_ROO3682.JPG" alt="Bride">
       </div>
       <div class="person-name">Prakrati Sharma</div>
       <div class="person-sub">D/o Rajesh Sharma &amp; Ranjana Sharma</div>
       <div class="scroll-hint"><span>Scroll</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 4v16M6 14l6 6 6-6"/></svg></div>
     </div>
 
-    
+   
 
     <!-- Slide 3: United In -->
     <div class="slide bg-slide-both">
@@ -568,16 +572,18 @@
       <div class="scroll-hint"><span>Scroll</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 4v16M6 14l6 6 6-6"/></svg></div>
     </div>
 
-    <!-- Slide 4: Groom -->
+
+    <!-- Slide 2: Groom -->
     <div class="slide bg-slide-groom">
       <div class="eyebrow">The Groom</div>
       <div class="photo-frame">
-        <img src="P1829989.jpg" alt="Groom">
+        <img src="P1829989.JPG" alt="Groom">
       </div>
       <div class="person-name">Shivam Mishra</div><br>
       <div class="person-sub">S/o Sanjay Mishra &amp; Saraswati Mishra</div>
       <div class="scroll-hint"><span>Scroll</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 4v16M6 14l6 6 6-6"/></svg></div>
     </div>
+   
 
     <!-- Slide 5: Scratch to Reveal + Countdown -->
     <div class="slide">
@@ -637,6 +643,7 @@
       <div class="headline" style="font-size:26px;">The Celebrations</div>
       <div class="celeb-subtitle">Three Moments • One Beautiful Journey</div>
 
+     
 
       <div class="event-card">
         <div class="event-date">
@@ -666,7 +673,6 @@
         </div>
       </div>
 
-      
 
       <div class="event-card">
         <div class="event-date">
